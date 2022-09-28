@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+ body{
+  font-family: 'Merriweather';
+  font-weight: 400;
+  padding: 0 24px;
+ }
+
+h1 {
+  font-weight: 600;
+
+}
+
+.letters {
+  padding-left: 20px;x
+  font-size: 22px;
+  list-style: none;
+}
+
+
+.letters li {
+  background-color: rgb(171, 77, 77);
+  display: inline;
+  padding: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: rgb(223, 208, 208);
+}
